@@ -1,3 +1,7 @@
 def alphabetize(arr)
-  puts arr.sort
-end
+  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
+  arr.each do |word|
+    placement = word[0]
+
+  end
