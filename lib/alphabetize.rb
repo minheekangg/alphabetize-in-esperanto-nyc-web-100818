@@ -1,7 +1,12 @@
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
 
   arr.each do |word|
-    placement = word[0]
+    first_letter = word[0]
+      i=0
+      while i < alphabet.length
+        if alphabet[i] == first_letter
+          curr_num = i
 
   end
